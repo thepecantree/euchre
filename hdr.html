@@ -1,0 +1,42 @@
+<center><div id="headera1" class="header0": left;>
+<a id="headerpart1" href='index.php'>
+        <img src="icon1.png" alt="icon" height="54" width="54" border=2 id="homeicon">
+        <span id="homePortal">|PplSMS|</span>
+    </a>
+    <a id="firstPortal" href='library.php'>
+        <span id="libraryPortal">|Library|</span>
+    </a>
+    <a id="thirdPortal" href="uploadstation.php">
+        <span id="uploadPortal">|Upload Station|</span>
+    </a>
+    <a id="fourthPortal" href="mathpage.php">
+        <span id="mathPortal">|Mathpage|</span>
+    </a>
+    <a id="fifthPortal" href="profiles.php?p=1">
+        <span id="profilesPortal">|Member List|</span>
+    </a>
+    <a id="sixthPortal" href="search.php">
+        <span id="searchPortal">|Member Search|</span>
+    </a>
+<?php 
+  if (session_status() == PHP_SESSION_NONE) {
+echo "
+<a id='seventhPortal' href='login.php'>
+        <span id='loginPortal'>|Log In|</span>
+    </a>
+<span>Hello, guest</span>";
+}
+  else if (isset($_SESSION['username'])) { 
+$username = $_SESSION['username'];
+$id = $_SESSION['id'];
+echo "
+<a id='seventhPortal' href='index.php?logout=1'>
+        <span id='logoutPortal'>|Log Out|</span>
+    </a>
+<span>Hello, ".$username.". User #".$id."</span>";
+}
+
+?>
+<?php include('server.php') ?>
+</div>
+</center>

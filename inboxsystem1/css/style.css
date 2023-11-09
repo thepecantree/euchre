@@ -1,0 +1,192 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,500);
+
+body {
+	margin:0 auto;
+	padding:0;
+	height:100%;
+	background:url("../img/bg.png") repeat #333;
+	font-weight:300;
+	font-size:16px;
+	font-family: 'Roboto';
+}
+
+h3 {
+	margin:5% auto;
+	text-align:center;
+	font-size:42px;
+	font-weight:100;
+	color:#fff;
+}
+
+a {
+	color:#1bc4a2;
+	text-decoration:none;
+}
+
+.btn {
+	padding:6px 10px;
+	background:#16a085;
+	color:#fff;
+	font-size:12px;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.1s ease all;
+	   -moz-transition:0.1s ease all;
+	    -ms-transition:0.1s ease all;
+	     -o-transition:0.1s ease all;
+	        transition:0.1s ease all;
+}
+
+.danger {
+	background:#e74c3c;
+}
+
+.danger:hover{
+	background:#c0392b;
+}
+
+.danger:active {
+	background:#b53529;
+	box-shadow:inset 0 0 10px rgba(0,0,0,0.3);
+	-webkit-box-shadow:inset 0 0 10px rgba(0,0,0,0.3);
+}
+
+.active, .active:hover, .active:active {
+	background:#cbd0d3 !important;
+	color:#777 !important;
+	cursor:auto !important;
+	box-shadow:none !important;
+}
+
+#loading {
+	position:fixed;
+	z-index:2000;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+}
+
+#loading img {
+	position:absolute;
+	padding:10px;
+	top:45%;
+	left:45%;
+	width:24px;
+	height:24px;
+	background:rgba(0,0,0,0.6);
+	border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+#inbox, #msg {
+	display:none;
+	margin:10% auto 0 auto;
+	padding:0;
+	width:900px;
+	height:auto;
+	overflow:hidden;
+	background:#1abc9c;
+	background:rgba(26, 188, 156, 0.3);
+	box-shadow:0 0 20px #222;
+	border-right:10px solid #16a085;
+	border-left:10px solid #16a085;
+	border-top:10px solid #16a085;
+	border-bottom:10px solid #16a085;
+}
+
+#inbox table, #inbox table tr {
+	margin:0 auto;
+	padding:0;
+	width:100%;
+}
+
+tr.border_bottom td {
+  border-bottom:2px solid #16a085;
+}
+
+/*tr:last-child.border_bottom td {
+  border-bottom:none;
+}*/
+
+#inbox table tr th, #inbox table tr td {
+	color:#fff;
+	font-size:12px;
+}
+
+#inbox table tr th {
+	padding:10px;
+	background:#16a085;
+}
+
+#inbox table tr td {
+	padding:10px;
+	text-align:center;
+	border-right:1px solid #16a085;
+	border-left:1px solid #16a085;
+}
+
+#inbox table tr td a {
+	color:#fff;
+}
+
+#msg {
+	padding:20px;
+}
+
+#msg table, #pages {
+	margin:20px 10px;
+	padding:0;
+}
+
+#msg table tr {
+	width:100%;
+}
+
+#msg table tr td {
+	margin-right:10px;
+	padding:5px;
+	background:#16a085;
+	color:#fff;
+	font-size:12px;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+#msg pre {
+	margin:0 0 20px;
+	padding:10px;
+	float:left;
+	color:#fff;
+	font-family: 'Roboto';
+	font-size:12px;
+	line-height:18px;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.remove {
+	margin:0 0 0 10px;
+}
+
+#pages a {
+	margin:0 10px 0 0;
+	-webkit-transition:0.1s ease all;
+	   -moz-transition:0.1s ease all;
+	    -ms-transition:0.1s ease all;
+	     -o-transition:0.1s ease all;
+	        transition:0.1s ease all;
+}
+
+#pages a:hover {
+	background:#138e76;
+}
+
+#pages a:active {
+	background:#12826b;
+	box-shadow:inset 0 0 10px rgba(0,0,0,0.3);
+	-webkit-box-shadow:inset 0 0 10px rgba(0,0,0,0.3);
+}

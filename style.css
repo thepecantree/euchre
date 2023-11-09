@@ -1,0 +1,116 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,500);
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+a {
+	color:black;
+	text-decoration:none;
+}
+.nowraps {
+    white-space: nowrap;
+}
+body {
+  margin:0 auto;
+  padding:0;
+  height:100%;
+  background:#F8F8FF;
+  font-weight:300;
+  font-size:16px;
+  font-family: 'Roboto';
+}
+.header0 {
+  margin: 25px auto 0px;
+  color: white;
+  background: lightgray;
+  border: 2px solid black;
+  padding: 10px;
+}
+.header {
+  width: 30%;
+  margin: 25px auto 0px;
+  color: white;
+  background: lightgray;
+  text-align: center;
+  border: 1px solid black;
+  border-bottom: none;
+  border-radius: 2px 2px 0px 0px;
+  padding: 10px;
+}
+.content0 {
+  margin: 25px auto 0px;
+  color: white;
+  background: white;
+  border: 2px solid lightgray;
+  border-radius: 0px 0px 2px 2px;
+  padding: 10px;
+}
+.content02 {
+  margin: 25px auto 0px;
+  color: white;
+  background: white;
+  border: 2px solid lightgray;
+  border-radius: 0px 0px 2px 2px;
+  padding: 10px;
+}
+form, .content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid black;
+  background: white;
+  border-radius: 0px 0px 2px 2px;
+}
+#messagebox {
+  width: 30%;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid black;
+  background: white;
+  border-radius: 0px 0px 2px 2px;
+}
+.input-group {
+  margin: 5px 0px 5px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 2px;
+  border: 1px solid gray;
+}
+.btn {
+  margin: 4px 4px 4px 4px;
+  padding: 8px;
+  font-size: 15px;
+  color: white;
+  background: gray;
+  border: none;
+  border-radius: 2px;
+  line-height: 0em;
+  vertical-align: middle;
+  position:relative;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
